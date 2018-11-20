@@ -1,5 +1,6 @@
 page 50100 "Book List"
 {
+    // Test
     PageType = List;
     SourceTable = Books;
     Caption = 'Books';
