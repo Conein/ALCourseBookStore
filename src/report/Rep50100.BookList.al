@@ -9,6 +9,7 @@ report 50100 "Book List"
     dataset
     {
 
+
         dataitem(FirstLoop; Integer)
         {
             DataItemTableView = sorting (number) where (number = const (1));
@@ -22,6 +23,7 @@ report 50100 "Book List"
             column(Title_Book; Title) { IncludeCaption = true; }
             column(Author_Book; Author) { IncludeCaption = true; }
             column(PageCount_Book; "Page Count") { IncludeCaption = true; }
+            column(No__of_Customer_Book; "No. of Customer") { IncludeCaption = true; }
         }
     }
 
