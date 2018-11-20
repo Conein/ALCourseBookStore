@@ -23,6 +23,24 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
+    <ReportParameter Name="TitelCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>TitelCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>TitelCaption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="PageCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>PageCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>PageCaption</Prompt>
+    </ReportParameter>
     <ReportParameter Name="No_BookCaption">
       <DataType>String</DataType>
       <DefaultValue>
@@ -102,6 +120,9 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+        </Field>
         <Field Name="No_Book">
           <DataField>No_Book</DataField>
         </Field>

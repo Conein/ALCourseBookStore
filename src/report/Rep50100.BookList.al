@@ -8,8 +8,16 @@ report 50100 "Book List"
 
     dataset
     {
-        dataitem(DataItemName; Books)
+
+        dataitem(FirstLoop; Integer)
         {
+            DataItemTableView = sorting (number) where (number = const (1));
+            column(CompanyName; companyproperty.DisplayName()) { }
+        }
+
+        dataitem(Books; Books)
+        {
+
             column(No_Book; "No.") { IncludeCaption = true; }
             column(Title_Book; Title) { IncludeCaption = true; }
             column(Author_Book; Author) { IncludeCaption = true; }
@@ -17,35 +25,20 @@ report 50100 "Book List"
         }
     }
 
-    requestpage
+    labels
     {
-        layout
-        {
-            area(Content)
-            {
-                group(GroupName)
-                {
-                    field(Name; DoPageCount)
-                    {
-                        ApplicationArea = All;
+        TitelCaption = 'Bock List';
+        PageCaption = 'Page {0} of {1}';
 
-                    }
-                }
-            }
-        }
-
-        actions
-        {
-            area(processing)
-            {
-                action(ActionName)
-                {
-                    ApplicationArea = All;
-
-                }
-            }
-        }
     }
+
+
+
+
+
+
+
+
 
     var
         DoPageCount: Boolean;

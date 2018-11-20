@@ -53,6 +53,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3565700325 - ReportLabel 2955012074" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bock List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - ReportLabel TitelCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3565700325 - ReportLabel 501693335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page {0} of {1}</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - ReportLabel PageCaption</note>
+        </trans-unit>
         <trans-unit id="Page 2783743311 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enter a Title. Please avoid special characters.</source>
           <note from="Developer" annotates="general" priority="2"></note>
