@@ -12,12 +12,17 @@ page 50101 "Book Card"
                 field("No."; "No.")
                 {
                     ApplicationArea = All;
+                    ShowMandatory = true;
 
                 }
                 field(Title; Title)
                 {
                     ApplicationArea = All;
                     ToolTip = 'Enter a Title. Please avoid special characters.';
+                }
+                field(MyPict; Picture)
+                {
+                    ApplicationArea = All;
 
                 }
             }

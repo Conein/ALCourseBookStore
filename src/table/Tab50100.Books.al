@@ -33,7 +33,10 @@ table 50100 "Books"
             FieldClass = FlowField;
             Editable = false;
             CalcFormula = count (Customer where ("Favorite Book No." = field ("no.")));
-
+        }
+        field(20; Picture; Media)
+        {
+            DataClassification = ToBeClassified;
 
         }
     }
@@ -63,4 +66,19 @@ table 50100 "Books"
         Commit();
         Page.RunModal(0, NewRec);
     end;
+
+    procedure StartList()
+
+    begin
+        Report.RunModal(Report::"Book List", false, false, Rec);
+    end;
+
+
+    procedure ExportBooks(var MarkedBooks: Record Books)
+
+    begin
+        Xmlport.Run(Xmlport::BookPort, false, false, MarkedBooks);
+    end;
+
+
 }

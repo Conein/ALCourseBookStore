@@ -38,6 +38,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field No. of Customer - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3481994534 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field Picture - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3565700325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Books</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -47,6 +52,11 @@
           <source>Enter Title here</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3565700325 - Action 2464250531 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Action ShowList - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3565700325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book List</source>
@@ -72,6 +82,11 @@
           <source>Enter a Title. Please avoid special characters.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Book Card - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1437471212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BookPort</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort BookPort - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2453377765 - Field 150268382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Favorite Book No.</source>

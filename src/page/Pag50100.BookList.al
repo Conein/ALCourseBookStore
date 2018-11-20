@@ -60,6 +60,40 @@ page 50100 "Book List"
 
                 end;
             }
+            action(ShowList)
+            {
+                ApplicationArea = All;
+                Image = Report;
+                ToolTip = 'Opens a List';
+                trigger OnAction()
+                begin
+                    StartList();
+                end;
+            }
+            action(ExportAllMarked)
+            {
+                ApplicationArea = All;
+                Image = Export;
+                trigger OnAction()
+                var
+                    myBooks: Record Books;
+
+                begin
+                    CurrPage.SetSelectionFilter(myBooks);
+                    ExportBooks(myBooks);
+                end;
+            }
+            action(DoSomething)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    Mgt: Codeunit BookStoreSubScribers;
+                begin
+                    mgt.DoSomething();
+                end;
+            }
         }
     }
 }
