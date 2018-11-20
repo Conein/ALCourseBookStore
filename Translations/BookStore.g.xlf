@@ -53,6 +53,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3565700325 - Control 334629381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Page Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Control ShowPageCount - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3565700325 - ReportLabel 2955012074" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bock List</source>
           <note from="Developer" annotates="general" priority="2"></note>

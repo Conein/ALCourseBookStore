@@ -9,9 +9,9 @@ report 50100 "Book List"
     dataset
     {
 
-
         dataitem(FirstLoop; Integer)
         {
+
             DataItemTableView = sorting (number) where (number = const (1));
             column(CompanyName; companyproperty.DisplayName()) { }
         }
@@ -27,12 +27,37 @@ report 50100 "Book List"
         }
     }
 
+
+    requestpage
+    {
+        layout
+        {
+            area(Content)
+            {
+                group(Options)
+                {
+                    field(ShowPageCount; ShowPageCount)
+
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Show Page Count';
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
     labels
     {
         TitelCaption = 'Bock List';
         PageCaption = 'Page {0} of {1}';
 
     }
+    var
+        ShowPageCount: Boolean;
 
 
 
