@@ -15,12 +15,14 @@ codeunit 50100 "BookStoreSubScribers"
     var
         MyText: Text;
         MyTextBuilder: TextBuilder;
+
     begin
         MyTextBuilder.AppendLine('Liebes Tagebuch,');
         MyTextBuilder.AppendLine('Katharina war heute wieder nicht nett zu mir');
         MyTextBuilder.Replace('Katharina', 'Dorit');
         MyText := MyTextBuilder.ToText;
         Message(MyText);
+
 
     end;
 }
