@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="BookStore">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3481994534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Books</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3481994534 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3481994534 - Field 329424276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field Title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3481994534 - Field 2842729223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field Author - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3481994534 - Field 3902073686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hardcover</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field Hardcover - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3481994534 - Field 4112194308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field Page Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3481994534 - Field 1182928870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Books - Field No. of Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3565700325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Books</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3565700325 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter Title here</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2783743311 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter a Title. Please avoid special characters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Card - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2453377765 - Field 150268382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Favorite Book No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustBooks - Field Favorite Book No. - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

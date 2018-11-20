@@ -1,0 +1,26 @@
+{
+  "id": "de5543e8-239e-4858-807b-af303001e7a5",
+  "name": "BookStore",
+  "publisher": "GOB Software und Systeme",
+  "brief": "",
+  "description": "Organize your books fast and easy!",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www.gob.de/weichenseite/",
+  "logo": "C:\\Temp\\th.jpg",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "runtime": "2.0",
+  "features": [
+    "TranslationFile"
+  ]
+}
