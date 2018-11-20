@@ -48,6 +48,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Control Title - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Report 3565700325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Book List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2783743311 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enter a Title. Please avoid special characters.</source>
           <note from="Developer" annotates="general" priority="2"></note>
